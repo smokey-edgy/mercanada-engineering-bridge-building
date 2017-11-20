@@ -18,7 +18,7 @@
   _bridgeSegment = [
     player,
     "Land_Pier_F",
-    90,
+    true,
     10,
     -1.2
   ] call MC_fnc_spawnObjectInFront;

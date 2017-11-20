@@ -1,9 +1,10 @@
 class CfgFunctions {
 	class MerCanada	{
-		class Geometry {
-			class objectMaxWidthLengthHeight {
-				file = "\mercanada-engineering-bridge-building\functions\MC_fnc_objectMaxWidthLengthHeight.sqf";
-			}
+		tag = "MC";
+		class Functions {
+		  file = "\mercanada-engineering-bridge-building\functions";
+			class objectMaxWidthLengthHeight {};
+			class spawnObjectInFront {};
 		}
 		class Engineering	{
 			class BridgeBuilding {
