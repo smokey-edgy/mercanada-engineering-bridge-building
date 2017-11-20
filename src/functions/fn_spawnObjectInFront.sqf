@@ -54,7 +54,7 @@ if(_rotate90Degrees) then {
   _center = (_maxs select 0) / 2;
   _degreesToRotate = 90;
 } else {
-  _center = (_maxs select 0) / 1;
+  _center = (_maxs select 1) / 2;
 };
 
 _spawnedObject setVectorUp [0,0,1];
