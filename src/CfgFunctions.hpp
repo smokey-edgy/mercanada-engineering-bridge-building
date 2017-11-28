@@ -5,6 +5,7 @@ class CfgFunctions {
 		  file = "\mercanada-engineering-bridge-building\functions";
 			class objectMaxWidthLengthHeight {};
 			class spawnObjectInFront {};
+			class spawnAndAttachObject {};
 		}
 		class Engineering	{
 			class BridgeBuilding {
